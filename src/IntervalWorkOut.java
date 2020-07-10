@@ -22,7 +22,7 @@ public class IntervalWorkOut {
         for (int i = 0; i<numberOfRepetitions; ++i ) {
             System.out.println("=============================\nROUND " + (i + 1) + ":" + "\n" + exercise1 + "\n" + exercise2 + "\n" + exercise3);
             if (i<3){
-                System.out.println("=============================\nDO THE BREAK "+breakTime+" SECONDS)");
+                System.out.println("=============================\nDO THE BREAK ("+breakTime+" SECONDS)");
             }else System.out.println("*****************************\nCONGRATS - YOU ARE DONE!!!\n*****************************");
 
         }
