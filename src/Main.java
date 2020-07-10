@@ -70,5 +70,8 @@ public class Main {
 
 
         }
+        IntervalWorkOut training1= new IntervalWorkOut("Push Up", "Squats", "Planks", 30, 4);
+        System.out.println("\n\nBonus_Exercise for IntervalWorkOut STARTS HERE\n");
+        training1.workOutMethod();
     }
 }
